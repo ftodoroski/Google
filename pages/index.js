@@ -21,12 +21,19 @@ export default function Home() {
     router.push(`/search?term=${term}`)
   }
 
+  const goToInbox = (e) => {
+    e.preventDefault()
+
+    router.push(`/mail/inbox`)
+  }
+
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <Head>
         <title>Google</title>
         <meta name="description" content="Google like clone" />
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Google-favicon-2015.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
       </Head>
 
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
@@ -36,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className='flex space-x-4 items-center'>
-          <p className='link'>Gmail</p>
+          <button className='link focus:outline-none' onClick={goToInbox}>Gmail</button>
           <p className='link'>Images</p>
           <ViewGridIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer'/>
           <Avatar url='https://media-exp1.licdn.com/dms/image/C4E03AQE1YQHKXzpCoA/profile-displayphoto-shrink_800_800/0/1602799196597?e=1628726400&v=beta&t=SAuq1pwTVUWolAE1Qw3THEZ1XV5keX6LzJBxpH8Rqb0'/>

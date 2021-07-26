@@ -10,5 +10,99 @@
     .link {
         @apply hover:underline cursor-pointer;
     }
+
+    .flex-7 {
+        flex: .7;
+    }
+
+    .shadow-g {
+        box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    }
+
+    .text-gray-c-400 {
+        color: #808080;
+    }
+
+    .background-bl {
+        background-color: black;
+    }
+
+    .bg-gray-sel {
+        background-color: #e8e9ec;
+    }
+
+    .bg-gray-hov {
+        background-color: #f1f2f3;
+    }
+
+    .flex-grow-3 {
+        flex-grow: .13;
+    }
+
+    .flex-grow-7 {
+        flex-grow: .9;
+    }
+
+    .bg-gray-hov-email-list-section {
+        background-color: #f3f3f3;
+    }
+
+    .text-gray-email-list-section {
+        color: #606368;
+    }
+
+    .google-text-green {
+        color: #188038;
+    }
+
+    .google-text-blue {
+        color: #1a73e8;
+    }
+
+    .google-bg-green {
+        background-color: #188038;
+    }
+
+    .google-bg-blue {
+        background-color: #1a73e8;
+    }
+
+    .google-bg-gray {
+        background-color: rgba(242,245,245,0.8);
+    }
+
+    .google-row-shadow {
+        box-shadow: inset 0 -1px 0 0 rgb(100 121 143 / 12%);
+    }
+
+    .google-row-shadow-hover {
+        box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+        z-index: 10;
+    }
+
+    .flex-grow-5 {
+        flex-grow: .5;
+    }
+
+    .text-hov {
+        color: black !important;
+        opacity: 1 !important;
+    }
+
+    .text-black-mail-row-main {
+        color: #202124;
+    }
+
+    .text-gray-mail-row-side {
+        color: #5f6368;
+    }
+
+    .w-description-500 {
+        width: 1px;
+    }
+
+    .text-15 {
+        font-size: 0.938rem
+    }
 }
 
