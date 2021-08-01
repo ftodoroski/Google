@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { EmailsContext } from "./EmailsContext";
 import EmailListSection from "./EmailListSection";
 import EmailListSettings from "./EmailListSettings";
 import {
@@ -11,6 +12,7 @@ import EmailRow from "./EmailRow";
 
 function Body() {
     const [selectedAll, setSelectedAll] = useState(false);
+    const {emails, setEmails} = useContext(EmailsContext)
 
     return (
         <div className="flex-grow">
@@ -25,7 +27,7 @@ function Body() {
                     </div>
                 </div>
 
-                {emailData.map(email => (
+                {emails.map(email => (
                     <EmailRow key={email.id} email={email} />
                 ))}
 

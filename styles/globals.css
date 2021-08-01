@@ -104,5 +104,29 @@
     .text-15 {
         font-size: 0.938rem
     }
+
+    .bb {
+        box-shadow: inset -1px 0 0 rgb(100 121 143 / 12%);
+    }
+
+    .email-settings-transition {
+        transition: box-shadow .15s cubic-bezier(0.4,0.0,0.2,1);
+    }
+
+    .email-header-font {
+        font-size: 1.375rem;
+    }
+
+    .text-gray-emd {
+        color: #555555
+    }
+
+    .text-gray-emd-2 {
+        color: #5f6368
+    }
+
+    .email-bg-gray {
+        background-color: #f0f2f9
+    }
 }
 
