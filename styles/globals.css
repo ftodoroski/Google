@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+}
+
 @layer components {
     .btn {
         @apply bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-900 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md;
@@ -127,6 +131,11 @@
 
     .email-bg-gray {
         background-color: #f0f2f9
+    }
+
+    .min-max-width-300px {
+        min-width: 300px;
+        max-width: 300px
     }
 }
 

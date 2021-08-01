@@ -16,7 +16,7 @@ import LabelIcon from '../../public/LabelIcon';
 
 function Sidebar() {
     return (
-        <div className="pr-4 w-40 flex flex-col flex-grow-3">
+        <div className="pr-4 min-max-width-300px flex flex-col flex-grow-3">
             <div className="flex items-center h-14 w-44 mt-4 mb-4 ml-3 pl-4 shadow-g rounded-full cursor-pointer font-custom hover:shadow-lg hover:border hover:bg-gray-50">
                 <img src="https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png" />
                 <p className="text-base pl-3 text-gray-700">Compose</p>
