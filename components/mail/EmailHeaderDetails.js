@@ -11,7 +11,7 @@ function EmailHeaderDetails({title, destination, time}) {
     }
 
     return (
-        <div className="pt-5 pl-16">
+        <div className="pt-2 pl-16">
             <div className="flex items-center justify-between">
                 <div>
                     <span className="capitalize font-medium text-base ml-2.5 ">{title}</span>
