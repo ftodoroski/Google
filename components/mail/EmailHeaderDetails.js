@@ -12,14 +12,14 @@ function EmailHeaderDetails({title, destination, time}) {
 
     return (
         <div className="pt-2 pl-16">
-            <div className="flex items-center justify-between">
+            <div className="min-max-height-40px flex items-center justify-between">
                 <div>
                     <span className="capitalize font-medium text-base ml-2.5 ">{title}</span>
                     <span className="text-gray-emd text-sm pl-1">{`<${destination}>`}</span>
                     <span className="text-gray-emd cursor-pointer underline text-xs pl-1">Unsubscribe</span>
                 </div>
 
-                <div className="pr-4 mb-0 flex items-center">
+                <div className="hidden sm:hidden md:hidden lg:hidden xl:pr-4 xl:mb-0 xl:flex xl:items-center">
                     <div className="text-gray-emd-2 text-xs">
                         {`${parseTime().split(" ")[1]} ${parseTime().split(" ")[2]}, ${parseTime().split(" ")[3]}, ${parseTime().split(" ")[4].slice(0, 5)} ${parseTime().split(" ")[4].slice(0, 2) > 12 ? "PM" : "AM"}`}
                     </div>
