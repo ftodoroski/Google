@@ -4,11 +4,9 @@ import { SearchIcon, QuestionMarkCircleIcon, CogIcon, AdjustmentsIcon } from '@h
 import Image from 'next/image'
 import Avatar from "../Avatar"
 
-
-
 function Header() {
     return (
-        <div className="flex items-center justify-between border-b">
+        <div className="top-0 sticky z-50 bg-white flex items-center justify-between border-b">
             <Head>
                 {/* Add the email to the title string interpolation */}
                 <title>Inbox</title> 

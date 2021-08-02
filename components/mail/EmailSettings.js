@@ -13,7 +13,7 @@ function EmailSettings({router}) {
     }
 
     return (
-        <div className="top-0 sticky z-50 border-b-2 flex justify-between h-14 pr-2.5 bg-white">
+        <div className="sticky top-90 border-b-2 flex justify-between h-14 pr-2.5 bg-white">
             <div className="flex items-center">
                 <div onClick={handlePrevPage} className="cursor-pointer mr-5 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black">
                     <BiArrowBack className="p-2 w-10 h-10"/>
@@ -76,39 +76,3 @@ function EmailSettings({router}) {
 }
 
 export default EmailSettings
-
-
-// return (
-//     <div className="top-0 sticky z-50 flex justify-between h-14 pr-2.5 bg-white">
-//         {/* Left Settings */}
-//         <div>
-//             <BiArrowBack className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-
-//             {/* Left */}
-//             <div>
-//                 <MdArchive className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//                 <BsFillExclamationOctagonFill className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//                 <FaTrash className="cursor-pointer h-11 w-11 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//             </div>
-
-//             {/* Middle */}
-//             <div>
-//                 <IoIosMail className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//                 <AiFillClockCircle className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//                 <MdAddCircle className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//             </div>
-
-//             {/* Right */}
-//             <div>
-//                 <BsFolderSymlinkFill className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//                 <MdLabel className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//                 <HiOutlineDotsVertical className="cursor-pointer h-10 w-10 p-2 rounded-full hover:bg-gray-100 text-gray-c-400 hover:text-black" />
-//             </div>
-//         </div>
-
-//         {/* Right Settings */}
-//         <div>
-
-//         </div>
-//     </div>
-// )

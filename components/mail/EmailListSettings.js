@@ -16,7 +16,7 @@ function EmailListSettings({ selectedAll, setSelectedAll} ) {
     }
 
     return (
-        <div className="top-0 sticky z-50 flex justify-between h-14 pr-2.5 bg-white">
+        <div className="sticky top-90 flex justify-between h-14 pr-2.5 bg-white">
             {/* Left Settings */}
             <div className="flex items-center">
                 <div className="flex items-center ">
