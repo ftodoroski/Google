@@ -153,5 +153,30 @@
         min-height: 71px;
         padding: 5px;
     }
+
+    .img-sec-flex-grow {
+        flex-grow: 0.5;
+        padding-right: 23px;
+        min-width: 290px;
+        max-width: 290px;
+    }
+    .search-bar-flex-grow {
+        flex-grow: 1;
+        min-width: 324px;
+        max-width: 722px;
+        
+    }
+    .app-settings-flex-grow {
+        flex-grow: 1;
+        justify-content: flex-end;
+        min-width: 240px;
+        max-width: 240px;
+    }
+
+    .texty::placeholder {
+        color: #797979;
+        font-size: 18px;
+        padding-left: 10px
+    }
 }
 

@@ -14,8 +14,8 @@ function Header() {
                 <link rel="icon" href="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" />
             </Head>
 
-            {/* Header Left  */}
-            <div className="flex items-center">
+            {/* Header Left ---- Image*/}
+            <div className="flex img-sec-flex-grow items-center">
                 <MenuIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer ml-5 mr-2.5'/>
                 <Image 
                     src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png"
@@ -26,15 +26,17 @@ function Header() {
                 />
             </div>
 
-            {/* Header Middle */}
-            <div className="flex items-center flex-7 bg-gray-300 bg-opacity-25 p-2.5 rounded-md">
-                <SearchIcon className="h-5 text-gray-600"/>
-                <input placeholder="Search mail" type="text" className="border-0 outline-none w-full p-2.5 text-base bg-transparent"/>
-                <AdjustmentsIcon className="h-5 "/>
+            {/* Header Middle ---- Search Bar*/}
+            <div className="w-full">
+                <div className="flex items-center search-bar-flex-grow bg-gray-300 bg-opacity-25 p-1.5 rounded-md">
+                    <SearchIcon className="h-6 w-6 ml-4 text-gray-600"/>
+                    <input placeholder="Search mail" type="text" className="texty border-0 outline-none w-full p-2.5 text-base bg-transparent"/>
+                    <AdjustmentsIcon className="h-5 "/>
+                </div>
             </div>
 
-            {/* Header Right */}
-            <div className="flex items-center space-x-2.5 pr-5">
+            {/* Header Right ---- App Settings*/}
+            <div className="flex app-settings-flex-grow items-center space-x-2.5 pr-2">
                 <QuestionMarkCircleIcon className="text-gray-700 h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
                 <CogIcon className="text-gray-700 h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
                 <ViewGridIcon className="text-gray-700 h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"/>
