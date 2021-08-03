@@ -24,7 +24,7 @@ export default function Home() {
   const goToInbox = (e) => {
     e.preventDefault()
 
-    router.push(`/mail/inbox`)
+    router.push(`/mail`)
   }
 
   return (
