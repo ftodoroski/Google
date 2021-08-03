@@ -6,7 +6,7 @@ import Avatar from "../Avatar"
 
 function Header() {
     return (
-        <div className="top-0 sticky z-50 bg-white flex items-center justify-between border-b">
+        <div className="top-0 sticky z-50 header-min-max-h-p bg-white flex items-center justify-between border-b">
             <Head>
                 {/* Add the email to the title string interpolation */}
                 <title>Inbox</title> 
@@ -16,13 +16,13 @@ function Header() {
 
             {/* Header Left  */}
             <div className="flex items-center">
-                <MenuIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer ml-5'/>
+                <MenuIcon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer ml-5 mr-2.5'/>
                 <Image 
-                    src="https://cdn.vox-cdn.com/thumbor/8fWz6qpiMYMsZhY4vrc9Vhl5yL8=/0x110:1320x770/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/21939811/newgmaillogo.jpg"
+                    src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png"
                     alt="Gmail logo" 
-                    width={180}
-                    height={101}
-                    className="object-contain m-5"
+                    width={120}
+                    height={60}
+                    className="object-contain"
                 />
             </div>
 

@@ -144,8 +144,14 @@
     }
 
     .top-90 {
-        top: 102px;
+        top: 71px;
         z-index: 999;
+    }
+
+    .header-min-max-h-p {
+        max-height: 71px;
+        min-height: 71px;
+        padding: 5px;
     }
 }
 
