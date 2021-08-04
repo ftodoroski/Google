@@ -2,11 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-
-}
-
 @layer components {
+    /* Google Search */
     .btn {
         @apply bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-900 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md;
     }
@@ -15,6 +12,7 @@
         @apply hover:underline cursor-pointer;
     }
 
+    /* Gmail */
     .flex-7 {
         flex: .7;
     }
@@ -177,6 +175,48 @@
         color: #797979;
         font-size: 18px;
         padding-left: 10px
+    }
+
+    /* Google Docs */
+    .menu-icon-header {
+        @apply h-14 w-14 hover:bg-gray-100 hover:text-black header-icon-color border-0 !important;
+    }
+
+    .header-icon-color {
+        color: #5f6368;
+    }
+
+    .header-min-max-h {
+        min-height: 73px;
+        max-height: 73px
+    }
+
+    .search-bar-document{
+        flex-grow: 1;
+        min-width: 324px;
+        max-width: 740px;
+        min-height: 55px;
+        max-height: 55px;
+    }
+
+    .textb::placeholder {
+        @apply header-icon-color font-light;
+        font-size: 18px;
+        color: #767676;
+    }
+
+    .search-icon-header {
+        @apply h-11 w-11 hover:bg-gray-200 header-icon-color border-0 !important;
+        padding-left: 7px;
+    }
+
+    .app-icon-header {
+        @apply h-12 w-12 hover:bg-gray-100 header-icon-color border-0 !important;
+    }
+    .img-icon-header {
+        @apply h-12 w-12 hover:bg-gray-100 rounded-full !important;
+        padding-left: 6px;
+        padding-top: 6px;
     }
 }
 
