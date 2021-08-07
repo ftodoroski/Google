@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../../components/document/Header'
 import Section from '../../components/document/Section'
+import Content from '../../components/document/Content'
 
 function Index() {
     return (
@@ -13,6 +14,7 @@ function Index() {
 
             <Header />
             <Section />
+            <Content />
         </div>
     )
 }

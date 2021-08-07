@@ -1,10 +1,12 @@
+import SectionContent from "./SectionContent"
+import SectionHeader from "./SectionHeader"
+
 function Section() {
     return (
-        <section>
-            <div className="max-w-3xl mx-auto">
-                <h1>lorem*10</h1>
-                <h1>lorem*10</h1>
-                <h1>lorem*10</h1>
+        <section className="document-section-bg-palette document-h">
+            <div className="max-w-7xl mx-auto">
+                <SectionHeader />
+                <SectionContent />
             </div>
         </section>
     )

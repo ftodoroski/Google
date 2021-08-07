@@ -8,7 +8,7 @@ function Header() {
     const [hasFocus, setFocus] = useState(false)
 
     return (
-        <header className="header-min-max-h p-2 sticky top-0 z-50 border-b-2 flex items-center justify-between bg-white">
+        <header className="header-min-max-h p-2 sticky top-0 z-50 flex items-center justify-between bg-white">
             <div className="flex items-center">
                 <div>
                     <Button 
@@ -69,7 +69,7 @@ function Header() {
                         loading="lazy" 
                         src="https://media-exp1.licdn.com/dms/image/C4E03AQE1YQHKXzpCoA/profile-displayphoto-shrink_800_800/0/1602799196597?e=1628726400&amp;v=beta&amp;t=SAuq1pwTVUWolAE1Qw3THEZ1XV5keX6LzJBxpH8Rqb0" 
                         alt="Profile pic"
-                        class="h-9 rounded-full cursor-pointer" 
+                        className="h-9 rounded-full cursor-pointer" 
                     />
                 </div>
             </div>
