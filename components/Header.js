@@ -43,7 +43,7 @@ function Header() {
                     <SearchIcon className='h-6 text-blue-500 hidden sm:inline-flex'/>
                     <button hidden type='submit' onClick={search}></button>
                 </form>
-                <Avatar className='ml-auto' url='https://media-exp1.licdn.com/dms/image/C4E03AQE1YQHKXzpCoA/profile-displayphoto-shrink_800_800/0/1602799196597?e=1628726400&v=beta&t=SAuq1pwTVUWolAE1Qw3THEZ1XV5keX6LzJBxpH8Rqb0'/>
+                <Avatar className='ml-auto' url='https://media-exp1.licdn.com/dms/image/C4E03AQE1YQHKXzpCoA/profile-displayphoto-shrink_100_100/0/1602799196597?e=1634169600&v=beta&t=on6P8MDinUyGA_eLp8lTJcy8Wnbsva0plb_tRMd_VMg'/>
             </div>
 
             <HeaderOptions />

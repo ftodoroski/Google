@@ -7,7 +7,6 @@ import {
     TagIcon,
     UsersIcon
 } from "@heroicons/react/solid"
-import emailData from "../../public/DummyEmailData"
 import EmailRow from "./EmailRow";
 
 function Body() {

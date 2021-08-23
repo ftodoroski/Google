@@ -10,8 +10,6 @@ import firebase from "../../fire-config"
 function EmailDetails({data}) {
     const router = useRouter()
     const {title, time, subject, id, destination, description} = data
-
-    console.log(data)
     
     return (
         <div className="h-screen">

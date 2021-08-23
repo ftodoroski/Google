@@ -9,6 +9,14 @@ const firebaseConfig = {
     appId: process.env.FIREBASE_CONFIG_APP_ID
 };
 
+
+// More Modularized
+// const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app()
+
+// const db = app.firestore()
+// export { db }
+
+
 try {
     firebase.initializeApp(firebaseConfig);
 } catch (err) {
@@ -18,3 +26,5 @@ try {
 }
 
 export default firebase;
+
+// Put this back or change files -> uncommented is more modular. Maybe leave that one

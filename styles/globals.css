@@ -270,7 +270,7 @@
 
     .doc-card {
         height: 340px;
-        width: 210px;
+        width: 230px;
     }
 
     .doc-card-info {
@@ -297,6 +297,75 @@
 
     .max-w-1230px {
         max-width: 1220px;
+    }
+
+    .h-72px {
+        height: 80px;
+    }
+
+    .w-280px {
+        width: 290px;
+    }
+
+    .w60-h40 {
+        height: 40px;
+        width: 60px;
+    }
+
+    .w90-h40 {
+        height: 40px;
+        width: 100px;
+    }
+
+    .doc-btn-box-shadow {
+        box-shadow: rgb(66 133 244 / 40%) 0px 1px 3px 1px;
+    }
+
+    .w-800px {
+        width: 800px;
+    }
+
+    .focused-input {
+        border: 3px solid #4c8bf5;
+        border-radius: 4px;
+    }
+
+    .w-view {
+        width: 48px;
+    }
+
+    .w-insert {
+        width: 52px;
+    }
+
+    .w-format {
+        width: 67px;
+    }
+
+    .w-tools {
+        width: 51px;
+    }
+
+    .w-addons {
+        width: 76px;
+    }
+
+    .w-help {
+        width: 48px;
+    }
+
+    .w-last-edited {
+        width: 200px;
+    }
+    
+    .text-lock-size > span {
+        font-size: 0.875rem !important;
+        line-height: 1.25rem !important;
+    }
+
+    .editor-h {
+        min-height: 1100px;
+        max-height: 1100px;
     }
 }
 
